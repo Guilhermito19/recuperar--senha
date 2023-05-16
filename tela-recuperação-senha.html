@@ -9,10 +9,12 @@
 
 <body>
 
-  <div class="topo">
-    <div id="logo"></div>
-    <span id="logo-texto">iService</span>
-  </div>
+  <section class="topo">
+    <div class="logo-iservice">
+      <div id="logo"></div>
+      <span id="logo-texto">iService</span>
+    </div>
+  </section>
 
   <div id="container-logo">
     <div id="container-logo1">
@@ -27,8 +29,26 @@
       <div id="texto-meio">
         <h1>Insira o e-mail cadastrado</h1>
       </div>
-      <div id="input-email">
-        <p id="texto-email-input">Email</p> <input id="email" type="email" placeholder="example@email.com">
+      <form action="">
+        <div id="input-email">
+          <p id="texto-email-input">Email</p> <input id="email" type="email" placeholder="example@email.com">
+        </div>
+        <div id="texto-abaixo-email">
+          <p>A mensagem será enviada em seu e-mail, caso não tenha recebido, verifique a caixa
+            de spam. </p>
+          <div id="div-botao">
+            <input type="submit" value="Enviar" class="blue-button">
+          </div>
+        </div>
+      </form>
+      <div class="container-bottom-meio">
+        <div class="divisoria-container-meio1">
+          <p>Não possui conta?</p> <a href="">Cadastrar</a>
+        </div>
+        <div class="divisoria-container-meio2"></div>
+        <div class="divisoria-container-meio3">
+          <p>Possui conta?</p> <a href="">Login</a>
+        </div>
       </div>
     </div>
 
@@ -39,8 +59,9 @@
   <div id="container-bottom">
     <div id="container-bottom-esquerda">
       <div id="logos-redes">
-        <img class="imagens" src="iService_WEBDesktop (10).png" alt=""> <img class="imagens" src="twitter (1).png"
-          alt=""> <img class="imagens" src="logo.png" alt="">
+        <a href=""><img class="imagens" src="iService_WEBDesktop (10).png" alt=""></a>
+        <a href=""><img class="imagens" src="iService_WEBDesktop (10).png" alt=""></a>
+        <a href=""><img class="imagens" src="iService_WEBDesktop (10).png" alt=""></a>
       </div>
       <div id="texto-bottom-esquerda">
         <p id="texto-bottom-esquerda-font">Nos acompanhe nas redes sociais!</p>
@@ -52,8 +73,10 @@
     </div>
 
     <div id="container-bottom-direita">
-      <div id="imagens-bottom-direita"><img class="imagens" src="logo.png" alt=""><img class="imagens" src="logo.png"
-          alt=""></div>
+      <div id="imagens-bottom-direita">
+        <a href=""><img class="imagens" src="logo.png" alt=""></a>
+        <a href=""><img class="imagens" src="logo.png" alt=""></a>
+      </div>
       <div id="texto-bottom-esquerda-font">Em caso de dúvidas entre em contato</div>
     </div>
 
